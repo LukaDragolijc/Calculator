@@ -52,7 +52,6 @@ class MyTestCase(unittest.TestCase):
             self.assertAlmostEqual(self.calculator.result, float(row['Result']))
 
     def tearDown(self) -> None:
-        # self.calculator.dispose()
         pass
 
 
